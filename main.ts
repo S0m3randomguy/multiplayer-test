@@ -1,7 +1,7 @@
 /**
  * Events are functions that take a function (lambda) as the last argument
  */
-//% color="#AA278D"
+//% color="#d54322"
 namespace language {
     /**
      * A simple event taking a function handler
