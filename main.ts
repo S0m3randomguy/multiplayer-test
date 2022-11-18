@@ -1,18 +1,19 @@
+enum Player {
+    //%block="1"
+    Player1,
+    //%block="2"
+    Player2,
+    //%block="3"
+    Player3,
+    //%block="4"
+    Player4
+}
+
 /**
  * Events are functions that take a function (lambda) as the last argument
  */
 //% color="#d54322"
 namespace language {
-    enum Player {
-        //%block="1"
-        Player1,
-        //%block="2"
-        Player2,
-        //%block="3"
-        Player3,
-        //%block="4"
-        Player4
-    }
 
     /**
      * A simple event taking a function handler
