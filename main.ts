@@ -34,6 +34,7 @@ namespace language {
         return true;
     }
 
+    //% block="test"
     //% group="test"
     //% weight=98
     export function test() {
