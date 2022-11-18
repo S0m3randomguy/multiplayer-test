@@ -18,7 +18,7 @@ namespace language {
     /**
      * A simple event taking a function handler
      */
-    //% block="when i join as player $player"
+    //% block="on start as player $player"
     export function onEvent(player: Player, handler: () => void) {
         handler();
     }
