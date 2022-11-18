@@ -22,6 +22,11 @@ namespace language {
         handler();
     }
 
+    //% block="test $player"
+    export function test(player: Player) {
+        console.log(123);
+    }
+
     /**
      * Events can have arguments before the handler
      */
