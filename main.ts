@@ -3,11 +3,22 @@
  */
 //% color="#d54322"
 namespace language {
+    enum Player {
+        //%block="1"
+        Player1,
+        //%block="2"
+        Player2,
+        //%block="3"
+        Player3,
+        //%block="4"
+        Player4
+    }
+
     /**
      * A simple event taking a function handler
      */
-    //% block="when i join as player"
-    export function onEvent(handler: () => void) {
+    //% block="when i join as player $player"
+    export function onEvent(player: Player, handler: () => void) {
         handler();
     }
 
